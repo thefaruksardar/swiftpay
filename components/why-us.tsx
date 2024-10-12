@@ -63,14 +63,14 @@ export default function Whyus() {
           </div>
           <FadeUp y={20} duration={0.5} delay={1.15}>
             <div className="bg-main-blue py-10 px-8 rounded-xl flex flex-col gap-12 md:flex-row md:items-center">
-              <div className="w-[35%]">
+              <div className="md:w-[35%]">
                 <h3 className="text-2xl mb-6">No asset volatility</h3>
                 <p className="text-slate-500">
                   Generate returns on your cash reserves without making any
                   investments.
                 </p>
               </div>
-              <div className="bg-white rounded-xl p-4 shadow-lg w-[65%]">
+              <div className="bg-white rounded-xl p-4 shadow-lg md:w-[65%]">
                 <Image
                   src="/chart.png"
                   alt="chart"

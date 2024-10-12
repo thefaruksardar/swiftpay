@@ -7,7 +7,7 @@ export default function Feature() {
   return (
     <section className="relative -mt-28 py-5 md:-mt-32 lg:-mt-52">
       <div className="px-6 py-10 mx-6  rounded-lg shadow-md bg-white lg:py-20 lg:px-16 md:mx-auto lg:max-w-7xl">
-        <FadeUp duration={0.75} delay={0.4}>
+        <FadeUp duration={0.75} delay={0.84}>
           <div className="flex flex-col gap-7 md:flex-row">
             <div className="md:w-[55%]">
               <p className="text-light-blue">FUTURE PAYMENT</p>

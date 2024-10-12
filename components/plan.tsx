@@ -29,7 +29,10 @@ export default function Plan() {
           </div>
           <div className=" md:flex-1">
             <FadeUp duration={1.25} delay={1.25}>
-              <div className="block bg-light-blue px-6 py-8 rounded-xl md:py-6">
+              <div
+                style={premium}
+                className="block bg-light-blue px-6 py-8 rounded-xl md:py-6"
+              >
                 <p className="text-5xl mb-10 text-neutral-50">Premium</p>
                 <div className="flex justify-between items-center">
                   <p className="text-lg text-neutral-50">$6.99/month</p>
@@ -48,3 +51,8 @@ export default function Plan() {
     </section>
   );
 }
+
+const premium = {
+  background: "url('/plan-bg.png') no-repeat center scroll",
+  backgroundSize: "cover",
+};

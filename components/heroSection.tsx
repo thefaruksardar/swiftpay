@@ -28,7 +28,7 @@ export default function HeroSection() {
                   placeholder="Your business email"
                   className="py-4 focus:outline-none"
                 />
-                <button className="bg-[#2A8E9E] px-3 rounded-r-2xl text-white py-4 flex items-center gap-1">
+                <button className="bg-[#2A8E9E] text-nowrap px-3 rounded-r-2xl text-white py-4 flex items-center gap-1">
                   Get Stared <MdArrowOutward className="text-xl" />
                 </button>
               </div>

@@ -6,7 +6,7 @@ import { FadeUp } from "./animations/fadeup";
 
 export default function Tryit() {
   return (
-    <section className="bg-[#023247]">
+    <section className="bg-[#023247] overflow-hidden">
       <div className="px-6 py-10 lg:flex md:mx-auto lg:items-center lg:py-28 lg:max-w-7xl">
         <div className="text-center mb-12 lg:pr-64 lg:text-left  lg:max-w-[60%]">
           <FadeUp x={-400} duration={1.25} delay={0.4}>
