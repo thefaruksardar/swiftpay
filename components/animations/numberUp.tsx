@@ -14,7 +14,6 @@ export default function NumberUp({
   duration?: number;
   useref: boolean;
 }) {
-  if (!useref) return;
   const [displayValue, setDisplayValue] = useState(start);
   const springValue = useSpring(start, {
     duration,
@@ -28,5 +27,6 @@ export default function NumberUp({
     springValue.set(end);
   }, []);
 
+  if (!useref) return;
   return <span>{displayValue}</span>;
 }
