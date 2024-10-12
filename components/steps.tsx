@@ -40,7 +40,7 @@ export default function Steps() {
               </p>
             </div>
           </FadeUp>
-          <FadeUp y={20} duration={0.85} delay={1.7}>
+          <FadeUp y={20} duration={0.85} delay={1.35}>
             <div className="bg-slate-50/10 py-6 px-5 rounded-xl">
               <h3 className="text-7xl font-semibold mb-2 bg-gradient-to-b from-main-blue text-transparent bg-clip-text to-[#023247]">
                 3
