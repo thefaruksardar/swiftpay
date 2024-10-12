@@ -6,10 +6,10 @@ import { FadeUp } from "./animations/fadeup";
 
 export default function Tryit() {
   return (
-    <section className="bg-[#023247] overflow-hidden">
-      <div className="px-6 py-10 lg:flex md:mx-auto lg:items-center lg:py-28 lg:max-w-7xl">
-        <div className="text-center mb-12 lg:pr-64 lg:text-left  lg:max-w-[60%]">
-          <FadeUp x={-400} duration={1.25} delay={0.4}>
+    <section className="bg-[#023247]">
+      <div className=" px-6 py-10 lg:flex md:mx-auto lg:items-center lg:py-28 lg:max-w-7xl">
+        <div className=" text-center mb-12 lg:pr-64 lg:text-left  lg:max-w-[60%]">
+          <FadeUp y={20} duration={1.25} delay={0.4}>
             <p className="text-light-blue mb-2">TRY IT NOW</p>
             <h2 className="text-center text-neutral-50 text-4xl font-medium leading-[2.75rem] mb-5 xl:text-left">
               Ready to level up your payment process?
@@ -20,7 +20,7 @@ export default function Tryit() {
             </p>
           </FadeUp>
         </div>
-        <FadeUp x={400} duration={1.25} delay={0.4}>
+        <FadeUp y={40} duration={1.25} delay={0.4}>
           <div className="flex justify-center items-center gap-5 ">
             <Link
               href="/"

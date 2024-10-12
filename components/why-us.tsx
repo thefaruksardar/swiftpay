@@ -1,9 +1,13 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
 import { FadeUp } from "./animations/fadeup";
+import NumberUp from "./animations/numberUp";
+import { useInView } from "framer-motion";
 
 export default function Whyus() {
+  const ref = useRef(null);
+  const totalBusiness = useInView(ref);
   return (
     <section>
       <div className="md:mx-auto lg:max-w-7xl">
@@ -19,8 +23,17 @@ export default function Whyus() {
           <div className="flex flex-col gap-6 md:flex-row lg:justify-center">
             <FadeUp y={20} duration={0.5} delay={0.45}>
               <div className="bg-main-blue py-14 px-8 rounded-xl">
-                <p className="text-light-blue text-7xl font-semibold mb-10">
-                  3k+
+                <p
+                  ref={ref}
+                  className="text-light-blue text-7xl font-semibold mb-10"
+                >
+                  <NumberUp
+                    start={0}
+                    end={3}
+                    duration={2000}
+                    useref={totalBusiness}
+                  />
+                  K+
                 </p>
                 <p className="text-neutral-800 text-2xl">
                   Businesses already running on Shifypay

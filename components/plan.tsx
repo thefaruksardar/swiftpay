@@ -28,7 +28,7 @@ export default function Plan() {
             </FadeUp>
           </div>
           <div className=" md:flex-1">
-            <FadeUp duration={1.25} delay={1.25}>
+            <FadeUp duration={1.25} delay={0.8}>
               <div
                 style={premium}
                 className="block bg-light-blue px-6 py-8 rounded-xl md:py-6"
