@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { FadeUp } from "./animations/fadeup";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -28,9 +29,12 @@ export default function HeroSection() {
                   placeholder="Your business email"
                   className="py-4 focus:outline-none"
                 />
-                <button className="bg-[#2A8E9E] text-nowrap px-3 rounded-r-2xl text-white py-4 flex items-center gap-1">
+                <Link
+                  href="/"
+                  className="bg-[#2A8E9E] text-nowrap px-3 rounded-r-2xl text-white py-4 flex items-center gap-1"
+                >
                   Get Stared <MdArrowOutward className="text-xl" />
-                </button>
+                </Link>
               </div>
             </form>
             <div className="flex items-center grayscale	md:w-1/2">

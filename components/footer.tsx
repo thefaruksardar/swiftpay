@@ -34,13 +34,27 @@ export default function Footer() {
         <div className="mb-8">
           <p className="font-semibold mb-3 text-[1.2rem]">Follow us on</p>
           <div className="flex items-center gap-3">
-            <Link href="#" className="text-2xl">
+            <Link
+              aria-label="follow us on Twitter"
+              href="#"
+              className="text-2xl"
+            >
               <FaTwitter />
             </Link>
-            <Link href="#" className="text-2xl">
+
+            <Link
+              aria-label="follow us on Linkedin"
+              href="#"
+              className="text-2xl"
+            >
               <FaLinkedin />
             </Link>
-            <Link href="#" className="text-2xl">
+
+            <Link
+              aria-label="follow us on Facebook"
+              href="#"
+              className="text-2xl"
+            >
               <FaFacebook />
             </Link>
           </div>

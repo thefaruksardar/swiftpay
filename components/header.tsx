@@ -21,7 +21,7 @@ export default function Header() {
           >
             <Image
               src="/logo.svg"
-              alt="SwiftPay"
+              alt="SwiftPay brand logo"
               title="SwiftPay"
               width={500}
               height={500}
@@ -32,6 +32,7 @@ export default function Header() {
         </div>
         <nav className="">
           <button
+            name="menu"
             onClick={() => setShownMenu(!showMenu)}
             className="block lg:hidden text-3xl text-neutral-600"
           >
@@ -56,6 +57,7 @@ export default function Header() {
                 exit={{ x: "100%" }}
               >
                 <button
+                  name="menu"
                   onClick={() => setShownMenu(!showMenu)}
                   className="block lg:hidden text-3xl text-neutral-600"
                 >

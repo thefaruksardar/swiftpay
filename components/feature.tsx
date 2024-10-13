@@ -23,7 +23,7 @@ export default function Feature() {
         </FadeUp>
 
         <div className="flex flex-col gap-7 mt-12 md:flex-row ">
-          <FadeUp y={20} duration={0.5} delay={0.75}>
+          <FadeUp y={20} duration={0.5} delay={0.4}>
             <div className="pr-10">
               <Image
                 src="/free-transfers.png"
@@ -41,7 +41,7 @@ export default function Feature() {
             </div>
           </FadeUp>
 
-          <FadeUp y={20} duration={0.5} delay={0.85}>
+          <FadeUp y={20} duration={0.5} delay={0.8}>
             <div className="pr-10">
               <Image
                 src="/multiple-accounts.png"

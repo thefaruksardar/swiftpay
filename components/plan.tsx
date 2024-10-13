@@ -18,6 +18,7 @@ export default function Plan() {
                 <div className="flex justify-between items-center">
                   <p className="text-lg">$2.99/month</p>
                   <Link
+                    aria-label="subscribe to the plus plan"
                     href="#"
                     className="bg-light-blue p-4 rounded-full text-neutral-50"
                   >
@@ -37,6 +38,7 @@ export default function Plan() {
                 <div className="flex justify-between items-center">
                   <p className="text-lg text-neutral-50">$6.99/month</p>
                   <Link
+                    aria-label="subscribe to the premium plan"
                     href="#"
                     className="bg-main-blue p-4 rounded-full text-light-blue"
                   >
