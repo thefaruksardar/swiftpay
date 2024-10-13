@@ -27,6 +27,6 @@ export default function NumberUp({
     springValue.set(end);
   }, []);
 
-  if (!useref) return;
+  if (!useref) return null;
   return <span>{displayValue}</span>;
 }
