@@ -33,6 +33,7 @@ export default function Header() {
         <nav className="">
           <button
             name="menu"
+            aria-label="menu"
             onClick={() => setShownMenu(!showMenu)}
             className="block lg:hidden text-3xl text-neutral-600"
           >
@@ -58,6 +59,7 @@ export default function Header() {
               >
                 <button
                   name="menu"
+                  aria-label="menu"
                   onClick={() => setShownMenu(!showMenu)}
                   className="block lg:hidden text-3xl text-neutral-600"
                 >
